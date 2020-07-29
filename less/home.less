@@ -1,0 +1,52 @@
+.home {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+
+    @media @phone {
+        width: 100%;
+    }
+
+    h1, h2 {
+        padding-bottom: 2rem;
+    }
+
+    .header-text {
+        width: 70vw;
+        height: 90vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .text {
+            color: black;
+            font-size: 4rem;
+            @media @phone {
+                font-size: 3rem;
+            }
+        }
+        .text1 {
+            font-size: 5rem;
+            color: black;
+
+            @media @phone {
+                font-size: 5rem;
+            }
+        }
+
+        .text2 {
+            font-size: 5rem;
+            color: black;
+
+            @media @phone {
+                font-size: 5rem;
+            }
+        }
+    }
+}
